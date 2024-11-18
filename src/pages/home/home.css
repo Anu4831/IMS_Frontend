@@ -1,0 +1,48 @@
+/* Center the home container */
+.home-container {
+    padding: 20px;
+    max-width: 900px; /* Set a max width for the dashboard */
+    margin: 0 auto; /* Centers the container horizontally */
+    text-align: center; /* Centers the text inside the container */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Makes the table take up full width of the container */
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center; /* Center-aligns the text inside table cells */
+    font-size: 16px; /* Sets a standard font size */
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold; /* Boldens the header text */
+    font-size: 18px; /* Increases the font size for headers */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row color for better readability */
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1; /* Row highlight on hover */
+}
+
+/* Additional styling for bold text and appearance */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,39 @@
+.notification-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.notification-item {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification-message {
+    font-size: 16px;
+    color: red;
+}
+
+.notification-message.marking {
+    color: green;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
